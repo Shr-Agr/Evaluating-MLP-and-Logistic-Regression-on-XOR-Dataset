@@ -20,4 +20,4 @@ When only $x_1$ and $x_2$ are used as features the accuracy is low and the decis
 
 When $x_1$, $x_2$, $x_1^2$, $x_2^2$ are used as features the decision boundary is some curve but the accuracy and per class precision are still low.
 
-When we use $x_1$, $x_2$, $x_1*x_2$, $x_1^2$ features we get a near to perfect classification with a very high accuracy and precision. This happens beacuse after including the feature $x_1*x_2$ the xor dataset becomes linearly separable in a higher dimensional space.
+When we use $x_1$, $x_2$, $x_1$ * $x_2$, $x_1^2$ features we get a near to perfect classification with a very high accuracy and precision. This happens beacuse after including the feature $x_1$ * $x_2$ the xor dataset becomes linearly separable in a higher dimensional space.
